@@ -16,6 +16,7 @@ public class ClientController {
 
 	@PostMapping(value = "/addclient")
 	public ResponseEntity<ClientBean> addClient(@RequestBody ClientBean clientBean) {
+		System.out.println("::Hello");
 		return null;
 
 	}
